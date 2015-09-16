@@ -32,17 +32,22 @@ It comprises
  * load all settings into the ocatave-workspace, and start the EDA,
    as follows:
 
-'''
+```
 set_eda_params;
 set_selection_params;
 set_ae_params;  %in case you want to use the denoising autoencoder
 [mean_fitness, best_fitness, found_in_iteration,cputime_until_best]=eda(eda_params,selection_params,model_params)
-'''
+```
 
 # Sources and further reading
 [1] P. Larranaga and J.A. Lozano. Estimation of Distribution Algorithms: A New Tool for Evolutionary Computation, Kluwer Academic Pub, 2002
+
 [2] Hinton, G. E. A Practical Guide to Training Restricted Boltzmann Machines, 2006 Techical Report 
+
 [3] Pelikan, M., Hierarchical Bayesian Optimization Algorithm, Springer 2005
+
 [4] Baluja, S. Population-Based Incremental Learning: A Method for Integrating Genetic Search Based Function Optimization and Competitive Learning Carnegie Mellon University, 1994
+
 [5] Vincent, P.; Larochelle, H.; Bengio, Y. & Manzagol, P.-A. Extracting and Composing Robust Features with Denoising Autoencoders Proceedings of the 25th international conference on Machine learning, 2008, 1096-1103
+
 [6] Salakhutdinov, R. & Hinton, G. E. A Better Way to Pretrain Deep Boltzmann Machines Advances in Neural Information Processing Systems, 2012, 2447-2455
