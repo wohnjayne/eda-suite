@@ -6,8 +6,8 @@ README of eda-suite on github
 
 # Contents
 ##1. What is EDA suite##
-EDA suite is a tool I used during my time at the University of Mainz, Germany.
-It is meant as a tool to test differnent probabilistic models in the 
+EDA suite is a tool I use for my research at the University of Mainz, Germany.
+It is meant as a tool to test different probabilistic models in the 
 context of estimation of distribution algorithms (EDA) (see [1]).
 
 It comprises
