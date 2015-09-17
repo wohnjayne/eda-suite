@@ -285,10 +285,6 @@ for epoch = epoch:maxepoch
    penbiases = penbiases + penbiasinc;
    %labbiases = labbiases + labbiasinc;
 %%%%%%%%%%%%%%% END OF UPDATES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-   if rem(batch,50)==0  
-     figure(1);
-     dispims(negdata',28,28);
-   end  
 
   end
   %fprintf(1, 'epoch %4i reconstruction error %6.1f \n Number of misclassified training cases %d (out of 60000) \n', epoch, errsum,60000-counter); 
