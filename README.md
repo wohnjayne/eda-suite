@@ -4,7 +4,7 @@ README of eda-suite on github
 1. What is EDA suite
 2. How can I use it
 3. Publications and configurations
-A1 Sources
+4. Sources and further reading
 
 # Contents
 ##1. What is EDA suite##
@@ -45,14 +45,14 @@ The following publications include experiments performed with this code (see ind
 
 The corresponding configuration files can be found in the directory '.configs-papers/'
 
-Title|Comment|Configuration file|URL
+Title|Comment|Config subfolder|URL
 --- | --- | --- | --- 
-Denoising Autoencoders for Fast Combinatorial Black Box (GECCO'15) Optimization|slightly different autoencoder code was used|'.configs-papers/gecco15-dae-eda-fast/'|http://dl.acm.org/citation.cfm?doid=2739482.2764691
-Denoising Autoencoders for Fast Combinatorial Black Box Optimization (arXiv)|submitted version of the above|'.configs-papers/gecco15-dae-eda-fast/'|http://arxiv.org/abs/1503.01954
+Denoising Autoencoders for Fast Combinatorial Black Box Optimization (GECCO'15)|slightly different autoencoder code was used|`gecco15-dae-eda-fast/`|[ACM](http://dl.acm.org/citation.cfm?doid=2739482.2764691)
+Denoising Autoencoders for Fast Combinatorial Black Box Optimization (arXiv)|submitted version of the above|`gecco15-dae-eda-fast/`|[arXiv](http://arxiv.org/abs/1503.01954)
 Deep Boltzmann Machines in Estimation of Distribution Algorithms (technical report)|*in preparation* ||
 
 
-# A1 Sources and further reading
+##4. Sources and further reading
 [1] P. Larranaga and J.A. Lozano. Estimation of Distribution Algorithms: A New Tool for Evolutionary Computation, Kluwer Academic Pub, 2002
 
 [2] Hinton, G. E. A Practical Guide to Training Restricted Boltzmann Machines, 2006 Techical Report 
