@@ -45,10 +45,10 @@ The following publications include experiments performed with this code (see ind
 
 The corresponding configuration files can be found in the directory '.configs-papers/'
 
-Title|URL|Configuration file|Comment
+Title|Comment|Configuration file|URL
 --- | --- | --- | --- 
-Denoising Autoencoders for Fast Combinatorial Black Box (GECCO'15) Optimization|http://dl.acm.org/citation.cfm?doid=2739482.2764691|'.configs-papers/gecco15-dae-eda-fast/'|slightly different autoencoder code was used
-Denoising Autoencoders for Fast Combinatorial Black Box Optimization (arXiv)|http://arxiv.org/abs/1503.01954|'.configs-papers/gecco15-dae-eda-fast/'|submitted version of the above
+Denoising Autoencoders for Fast Combinatorial Black Box (GECCO'15) Optimization|slightly different autoencoder code was used|'.configs-papers/gecco15-dae-eda-fast/'|http://dl.acm.org/citation.cfm?doid=2739482.2764691
+Denoising Autoencoders for Fast Combinatorial Black Box Optimization (arXiv)|submitted version of the above|'.configs-papers/gecco15-dae-eda-fast/'|http://arxiv.org/abs/1503.01954
 Deep Boltzmann Machines in Estimation of Distribution Algorithms (technical report)|*in preparation* ||
 
 
