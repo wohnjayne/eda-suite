@@ -3,6 +3,8 @@ README of eda-suite on github
 # Overview
 1. What is EDA suite
 2. How can I use it
+3. Publications and configurations
+A1 Sources
 
 # Contents
 ##1. What is EDA suite##
@@ -38,8 +40,18 @@ set_selection_params;
 set_ae_params;  %in case you want to use the denoising autoencoder
 [mean_fitness, best_fitness, found_in_iteration,cputime_until_best]=eda(eda_params,selection_params,model_params)
 ```
+##3. Publications and configurations
+The following publications include experiments performed with this code (see individual comments).
 
-# Sources and further reading
+The corresponding configuration files can be found in the directory '.configs-papers/'
+
+Title|URL|Configuration file|Comment
+Denoising Autoencoders for Fast Combinatorial Black Box (GECCO'15) Optimization|http://dl.acm.org/citation.cfm?doid=2739482.2764691|'.configs-papers/gecco15-dae-eda-fast/'|slightly different autoencoder code was used
+Denoising Autoencoders for Fast Combinatorial Black Box Optimization (arXiv)|http://arxiv.org/abs/1503.01954|'.configs-papers/gecco15-dae-eda-fast/'|submitted version of the above
+Deep Boltzmann Machines in Estimation of Distribution Algorithms (technical report)|*in preparation* ||
+
+
+# A1 Sources and further reading
 [1] P. Larranaga and J.A. Lozano. Estimation of Distribution Algorithms: A New Tool for Evolutionary Computation, Kluwer Academic Pub, 2002
 
 [2] Hinton, G. E. A Practical Guide to Training Restricted Boltzmann Machines, 2006 Techical Report 
