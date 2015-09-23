@@ -50,7 +50,7 @@ Title|Comment|Config subfolder|URL
 --- | --- | --- | --- 
 Denoising Autoencoders for Fast Combinatorial Black Box Optimization (GECCO'15)|slightly different autoencoder code was used|`gecco15-dae-eda-fast/`|[ACM](http://dl.acm.org/citation.cfm?doid=2739482.2764691)
 Denoising Autoencoders for Fast Combinatorial Black Box Optimization (arXiv)|submitted version of the above|`gecco15-dae-eda-fast/`|[arXiv](http://arxiv.org/abs/1503.01954)
-Deep Boltzmann Machines in Estimation of Distribution Algorithms||`dbm-eda/`|[arXiv](http://arxiv.org/abs/1509.06535)
+Deep Boltzmann Machines in Estimation of Distribution Algorithms for Combinatorial Optimization||`dbm-eda/`|[arXiv](http://arxiv.org/abs/1509.06535)
 
 
 ##4. Sources and further reading
