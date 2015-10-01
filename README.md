@@ -21,10 +21,11 @@ It comprises
  * Population-based incremental learning  (PBIL) [4]
  * Denoising Autoencoders (DAE) [5]
  * Deep Boltzmann Machine (DBM) [6]  * with code form R. Salakhutdinov
+ * Generative Adversarial Network (GAN) [7]
 * some basic selection functions
  
 ##2. How can I use it?##
- * I used GNU/Octave for all experiments, mostly v3.2.4
+ * I used GNU/Octave for all experiments, mostly v3.2.4 and 3.8.1
    (you might need to install some extra packages, especially for BOA) 
  * Start Octave, go to the ./src/ directory
  * adjust the EDA parameters (including the choice of problem)
@@ -48,10 +49,9 @@ The corresponding configuration files can be found in the directory '.configs-pa
 
 Title|Comment|Config subfolder|URL
 --- | --- | --- | --- 
-Denoising Autoencoders for Fast Combinatorial Black Box Optimization (GECCO'15)|slightly different autoencoder code was used|`gecco15-dae-eda-fast/`|[ACM](http://dl.acm.org/citation.cfm?doid=2739482.2764691)
-Denoising Autoencoders for Fast Combinatorial Black Box Optimization (arXiv)|submitted version of the above|`gecco15-dae-eda-fast/`|[arXiv](http://arxiv.org/abs/1503.01954)
+Denoising Autoencoders for Fast Combinatorial Black Box Optimization (GECCO'15 + submission on arXiv)|slightly different autoencoder code was used|`gecco15-dae-eda-fast/`|[ACM](http://dl.acm.org/citation.cfm?doid=2739482.2764691) and [arXiv](http://arxiv.org/abs/1503.01954)
 Deep Boltzmann Machines in Estimation of Distribution Algorithms for Combinatorial Optimization||`dbm-eda/`|[arXiv](http://arxiv.org/abs/1509.06535)
-
+Generative Adversarial Networks in Estimation of Distribution Algorithms for Combinatorial Optimizatoin||`gan-eda/`|[arXiv](http://arxiv.org/abs/1509.09235)
 
 ##4. Sources and further reading
 [1] P. Larranaga and J.A. Lozano. Estimation of Distribution Algorithms: A New Tool for Evolutionary Computation, Kluwer Academic Pub, 2002
@@ -65,3 +65,5 @@ Deep Boltzmann Machines in Estimation of Distribution Algorithms for Combinatori
 [5] Vincent, P.; Larochelle, H.; Bengio, Y. & Manzagol, P.-A. Extracting and Composing Robust Features with Denoising Autoencoders Proceedings of the 25th international conference on Machine learning, 2008, 1096-1103
 
 [6] Salakhutdinov, R. & Hinton, G. E. A Better Way to Pretrain Deep Boltzmann Machines Advances in Neural Information Processing Systems, 2012, 2447-2455
+
+[7] Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua; Generative Adversarial Nets; In: Advances in Neural Information Processing Systems (NIPS 2014), 2672-2680
