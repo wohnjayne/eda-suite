@@ -22,6 +22,7 @@ It comprises
  * Denoising Autoencoders (DAE) [5]
  * Deep Boltzmann Machine (DBM) [6]  * with code form R. Salakhutdinov
  * Generative Adversarial Network (GAN) [7]
+ * Factored Higher-Order RBM [8]
 * some basic selection functions
  
 ##2. How can I use it?##
@@ -67,3 +68,5 @@ Generative Adversarial Networks in Estimation of Distribution Algorithms for Com
 [6] Salakhutdinov, R. & Hinton, G. E. A Better Way to Pretrain Deep Boltzmann Machines Advances in Neural Information Processing Systems, 2012, 2447-2455
 
 [7] Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua; Generative Adversarial Nets; In: Advances in Neural Information Processing Systems (NIPS 2014), 2672-2680
+
+[8] Memisevic, Roland, and Geoffrey E. Hinton. "Learning to represent spatial transformations with factored higher-order Boltzmann machines." Neural Computation 22.6 (2010): 1473-1492.
