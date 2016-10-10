@@ -50,6 +50,7 @@ The corresponding configuration files can be found in the directory '.configs-pa
 
 Title|Comment|Config subfolder|URL
 --- | --- | --- | --- 
+Model Building and Sampling in Estimation of Distribution Algorithms using Denoising Autoencoders| October 2016 submission, updated version of DAE-EDA|`dae-eda`|*under review*
 Denoising Autoencoders for Fast Combinatorial Black Box Optimization (GECCO'15 + submission on arXiv)|slightly different autoencoder code was used|`gecco15-dae-eda-fast/`|[ACM](http://dl.acm.org/citation.cfm?doid=2739482.2764691) and [arXiv](http://arxiv.org/abs/1503.01954)
 Deep Boltzmann Machines in Estimation of Distribution Algorithms for Combinatorial Optimization||`dbm-eda/`|[arXiv](http://arxiv.org/abs/1509.06535)
 Generative Adversarial Networks in Estimation of Distribution Algorithms for Combinatorial Optimizatoin||`gan-eda/`|[arXiv](http://arxiv.org/abs/1509.09235)
