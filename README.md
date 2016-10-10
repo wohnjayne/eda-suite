@@ -20,7 +20,7 @@ It comprises
  * the Bayesian Optimization Algorithm (BOA) [3]
  * Population-based incremental learning  (PBIL) [4]
  * Denoising Autoencoders (DAE) [5]
- * Deep Boltzmann Machine (DBM) [6] (includes some code written by R. Salakhutdinov)
+ * Deep Boltzmann Machine (DBM) [6]  (includes some code written by R. Salakhutdinov)
  * Generative Adversarial Network (GAN) [7]
  * Factored Higher-Order RBM [8]
 * some basic selection functions
